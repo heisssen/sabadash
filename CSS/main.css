@@ -1,0 +1,59 @@
+   @font-face {
+    font-family: Octas; /* Имя шрифта */
+    src: url(FONTS/TTOctas-Black.otf); /* Путь к файлу со шрифтом */
+   }
+
+
+div {
+	font-family: 'B612 Mono', monospace;
+
+}
+
+nav {
+	font-size: 20px;
+}
+
+.navbar-nav {
+	 position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.navbar-brand {
+	font-size: 35px
+}
+.navbar-nav li {
+	padding: 10px;
+}
+
+#candidat {
+	background-color: rgb(255, 230, 179);
+	width: 100%;
+}
+
+#candidat p {
+	font-size: 20px;
+}
+
+#candidat p {
+	margin-left: 10px;
+	text-indent: 35px;
+}
+
+#candidat img {
+	margin-top: 10px;
+	width: 95%;
+}
+
+	hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#programa li {
+	font-size: 20px;
+}
+
